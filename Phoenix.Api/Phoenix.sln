@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phoenix.Web", "src\Phoenix.Web\Phoenix.Web.csproj", "{F4A9E76F-BE11-406B-AAE4-14355340D475}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phoenix.Web", "src\Phoenix.Web\Phoenix.Web.csproj", "{F4A9E76F-BE11-406B-AAE4-14355340D475}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phoenix", "src\Phoenix\Phoenix.csproj", "{74335127-3D9A-44C7-87C7-DD27E1550A4C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phoenix.Application", "src\Phoenix.Application\Phoenix.Application.csproj", "{111B5485-E25A-4998-B5CE-914C2ECFA3DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phoenix.Core", "src\Phoenix.Core\Phoenix.Core.csproj", "{A43C7433-DC4D-4B09-851A-659CD53312D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phoenix.Infrastructure", "src\Phoenix.Infrastructure\Phoenix.Infrastructure.csproj", "{51115C5D-8A54-4B11-8933-8EF1975C9EF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{F4A9E76F-BE11-406B-AAE4-14355340D475}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4A9E76F-BE11-406B-AAE4-14355340D475}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4A9E76F-BE11-406B-AAE4-14355340D475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74335127-3D9A-44C7-87C7-DD27E1550A4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74335127-3D9A-44C7-87C7-DD27E1550A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74335127-3D9A-44C7-87C7-DD27E1550A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74335127-3D9A-44C7-87C7-DD27E1550A4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{111B5485-E25A-4998-B5CE-914C2ECFA3DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{111B5485-E25A-4998-B5CE-914C2ECFA3DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{111B5485-E25A-4998-B5CE-914C2ECFA3DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{111B5485-E25A-4998-B5CE-914C2ECFA3DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A43C7433-DC4D-4B09-851A-659CD53312D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A43C7433-DC4D-4B09-851A-659CD53312D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A43C7433-DC4D-4B09-851A-659CD53312D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A43C7433-DC4D-4B09-851A-659CD53312D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51115C5D-8A54-4B11-8933-8EF1975C9EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51115C5D-8A54-4B11-8933-8EF1975C9EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51115C5D-8A54-4B11-8933-8EF1975C9EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51115C5D-8A54-4B11-8933-8EF1975C9EF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
